@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3673BBF2C086BB300EF179E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3673BBE2C086BB300EF179E /* SwiftUIView.swift */; };
+		D396886B2C07517000667E38 /* hawkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396886A2C07517000667E38 /* hawkerApp.swift */; };
+		D396886D2C07517000667E38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396886C2C07517000667E38 /* ContentView.swift */; };
+		D396886F2C07517600667E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D396886E2C07517600667E38 /* Assets.xcassets */; };
+		D39688722C07517600667E38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39688712C07517600667E38 /* Preview Assets.xcassets */; };
+		D396887C2C07517600667E38 /* hawkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396887B2C07517600667E38 /* hawkerTests.swift */; };
+		D39688862C07517600667E38 /* hawkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688852C07517600667E38 /* hawkerUITests.swift */; };
+		D39688882C07517600667E38 /* hawkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688872C07517600667E38 /* hawkerUITestsLaunchTests.swift */; };
+		D39688A22C0816E400667E38 /* hawkerData.json in Resources */ = {isa = PBXBuildFile; fileRef = D39688A12C0816E400667E38 /* hawkerData.json */; };
+		D39688A52C0817E600667E38 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688A42C0817E600667E38 /* ModelData.swift */; };
+		D39688A72C08189200667E38 /* Hawker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688A62C08189200667E38 /* Hawker.swift */; };
+		D39688A92C081A4A00667E38 /* HawkerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688A82C081A4A00667E38 /* HawkerRow.swift */; };
+		D39688AC2C0829B500667E38 /* SpecificMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688AB2C0829B400667E38 /* SpecificMapView.swift */; };
+		D39688AF2C08359300667E38 /* HawkerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688AE2C08359300667E38 /* HawkerList.swift */; };
+		D39688B12C0835A400667E38 /* HawkerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688B02C0835A400667E38 /* HawkerDetail.swift */; };
+		D39688B32C0835D900667E38 /* OverallMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688B22C0835D900667E38 /* OverallMapView.swift */; };
+		D3D5DCCE2C155F2A009D73D5 /* AnnotationsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5DCCD2C155F2A009D73D5 /* AnnotationsMap.swift */; };
+		D3D5DCD42C157062009D73D5 /* HawkerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5DCD32C157062009D73D5 /* HawkerSheet.swift */; };
+		D3ED1CB02C08A36000010013 /* StallRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CAF2C08A36000010013 /* StallRow.swift */; };
+		D3ED1CB62C08C07800010013 /* StallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CB52C08C07800010013 /* StallDetail.swift */; };
+		D3ED1CB82C08C55300010013 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CB72C08C55300010013 /* NewView.swift */; };
+		D3ED1CBA2C08C84500010013 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CB92C08C84500010013 /* CircleImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39688782C07517600667E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D396885F2C07517000667E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39688662C07517000667E38;
+			remoteInfo = hawker;
+		};
+		D39688822C07517600667E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D396885F2C07517000667E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39688662C07517000667E38;
+			remoteInfo = hawker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3673BBE2C086BB300EF179E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D39688672C07517000667E38 /* hawker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hawker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D396886A2C07517000667E38 /* hawkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkerApp.swift; sourceTree = "<group>"; };
+		D396886C2C07517000667E38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D396886E2C07517600667E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39688712C07517600667E38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D39688772C07517600667E38 /* hawkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hawkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D396887B2C07517600667E38 /* hawkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkerTests.swift; sourceTree = "<group>"; };
+		D39688812C07517600667E38 /* hawkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hawkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39688852C07517600667E38 /* hawkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkerUITests.swift; sourceTree = "<group>"; };
+		D39688872C07517600667E38 /* hawkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D39688A12C0816E400667E38 /* hawkerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hawkerData.json; sourceTree = "<group>"; };
+		D39688A42C0817E600667E38 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D39688A62C08189200667E38 /* Hawker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawker.swift; sourceTree = "<group>"; };
+		D39688A82C081A4A00667E38 /* HawkerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerRow.swift; sourceTree = "<group>"; };
+		D39688AB2C0829B400667E38 /* SpecificMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificMapView.swift; sourceTree = "<group>"; };
+		D39688AE2C08359300667E38 /* HawkerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerList.swift; sourceTree = "<group>"; };
+		D39688B02C0835A400667E38 /* HawkerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerDetail.swift; sourceTree = "<group>"; };
+		D39688B22C0835D900667E38 /* OverallMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallMapView.swift; sourceTree = "<group>"; };
+		D3D5DCCD2C155F2A009D73D5 /* AnnotationsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsMap.swift; sourceTree = "<group>"; };
+		D3D5DCD32C157062009D73D5 /* HawkerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerSheet.swift; sourceTree = "<group>"; };
+		D3ED1CAF2C08A36000010013 /* StallRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallRow.swift; sourceTree = "<group>"; };
+		D3ED1CB52C08C07800010013 /* StallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallDetail.swift; sourceTree = "<group>"; };
+		D3ED1CB72C08C55300010013 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		D3ED1CB92C08C84500010013 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39688642C07517000667E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39688742C07517600667E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D396887E2C07517600667E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D396885E2C07517000667E38 = {
+			isa = PBXGroup;
+			children = (
+				D39688692C07517000667E38 /* Hawker */,
+				D396887A2C07517600667E38 /* hawkerTests */,
+				D39688842C07517600667E38 /* hawkerUITests */,
+				D39688682C07517000667E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39688682C07517000667E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39688672C07517000667E38 /* hawker.app */,
+				D39688772C07517600667E38 /* hawkerTests.xctest */,
+				D39688812C07517600667E38 /* hawkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39688692C07517000667E38 /* Hawker */ = {
+			isa = PBXGroup;
+			children = (
+				D39688942C0751FB00667E38 /* Helper */,
+				D39688A32C0817D300667E38 /* Model */,
+				D396889E2C08168300667E38 /* Resources */,
+				D39688952C07523000667E38 /* View */,
+				D396886E2C07517600667E38 /* Assets.xcassets */,
+				D396886A2C07517000667E38 /* hawkerApp.swift */,
+				D39688702C07517600667E38 /* Preview Content */,
+			);
+			path = Hawker;
+			sourceTree = "<group>";
+		};
+		D39688702C07517600667E38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D39688712C07517600667E38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D396887A2C07517600667E38 /* hawkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D396887B2C07517600667E38 /* hawkerTests.swift */,
+			);
+			path = hawkerTests;
+			sourceTree = "<group>";
+		};
+		D39688842C07517600667E38 /* hawkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D39688852C07517600667E38 /* hawkerUITests.swift */,
+				D39688872C07517600667E38 /* hawkerUITestsLaunchTests.swift */,
+			);
+			path = hawkerUITests;
+			sourceTree = "<group>";
+		};
+		D39688942C0751FB00667E38 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D39688AB2C0829B400667E38 /* SpecificMapView.swift */,
+				D39688B22C0835D900667E38 /* OverallMapView.swift */,
+				D3ED1CB92C08C84500010013 /* CircleImage.swift */,
+				D3D5DCCD2C155F2A009D73D5 /* AnnotationsMap.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D39688952C07523000667E38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED1CAE2C08A35000010013 /* Stalls */,
+				D3ED1CAD2C08A2FC00010013 /* Hawkers */,
+				D396886C2C07517000667E38 /* ContentView.swift */,
+				D3673BBE2C086BB300EF179E /* SwiftUIView.swift */,
+				D3ED1CB72C08C55300010013 /* NewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D396889E2C08168300667E38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D39688A12C0816E400667E38 /* hawkerData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D39688A32C0817D300667E38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D39688A42C0817E600667E38 /* ModelData.swift */,
+				D39688A62C08189200667E38 /* Hawker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3ED1CAD2C08A2FC00010013 /* Hawkers */ = {
+			isa = PBXGroup;
+			children = (
+				D39688A82C081A4A00667E38 /* HawkerRow.swift */,
+				D39688AE2C08359300667E38 /* HawkerList.swift */,
+				D39688B02C0835A400667E38 /* HawkerDetail.swift */,
+				D3D5DCD32C157062009D73D5 /* HawkerSheet.swift */,
+			);
+			path = Hawkers;
+			sourceTree = "<group>";
+		};
+		D3ED1CAE2C08A35000010013 /* Stalls */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED1CAF2C08A36000010013 /* StallRow.swift */,
+				D3ED1CB52C08C07800010013 /* StallDetail.swift */,
+			);
+			path = Stalls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39688662C07517000667E38 /* hawker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D396888B2C07517600667E38 /* Build configuration list for PBXNativeTarget "hawker" */;
+			buildPhases = (
+				D39688632C07517000667E38 /* Sources */,
+				D39688642C07517000667E38 /* Frameworks */,
+				D39688652C07517000667E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hawker;
+			productName = hawker;
+			productReference = D39688672C07517000667E38 /* hawker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39688762C07517600667E38 /* hawkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D396888E2C07517600667E38 /* Build configuration list for PBXNativeTarget "hawkerTests" */;
+			buildPhases = (
+				D39688732C07517600667E38 /* Sources */,
+				D39688742C07517600667E38 /* Frameworks */,
+				D39688752C07517600667E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39688792C07517600667E38 /* PBXTargetDependency */,
+			);
+			name = hawkerTests;
+			productName = hawkerTests;
+			productReference = D39688772C07517600667E38 /* hawkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D39688802C07517600667E38 /* hawkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39688912C07517600667E38 /* Build configuration list for PBXNativeTarget "hawkerUITests" */;
+			buildPhases = (
+				D396887D2C07517600667E38 /* Sources */,
+				D396887E2C07517600667E38 /* Frameworks */,
+				D396887F2C07517600667E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39688832C07517600667E38 /* PBXTargetDependency */,
+			);
+			name = hawkerUITests;
+			productName = hawkerUITests;
+			productReference = D39688812C07517600667E38 /* hawkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D396885F2C07517000667E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D39688662C07517000667E38 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D39688762C07517600667E38 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D39688662C07517000667E38;
+					};
+					D39688802C07517600667E38 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D39688662C07517000667E38;
+					};
+				};
+			};
+			buildConfigurationList = D39688622C07517000667E38 /* Build configuration list for PBXProject "hawker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D396885E2C07517000667E38;
+			productRefGroup = D39688682C07517000667E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39688662C07517000667E38 /* hawker */,
+				D39688762C07517600667E38 /* hawkerTests */,
+				D39688802C07517600667E38 /* hawkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39688652C07517000667E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39688A22C0816E400667E38 /* hawkerData.json in Resources */,
+				D39688722C07517600667E38 /* Preview Assets.xcassets in Resources */,
+				D396886F2C07517600667E38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39688752C07517600667E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D396887F2C07517600667E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39688632C07517000667E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39688B12C0835A400667E38 /* HawkerDetail.swift in Sources */,
+				D39688AC2C0829B500667E38 /* SpecificMapView.swift in Sources */,
+				D3ED1CB02C08A36000010013 /* StallRow.swift in Sources */,
+				D3ED1CBA2C08C84500010013 /* CircleImage.swift in Sources */,
+				D39688AF2C08359300667E38 /* HawkerList.swift in Sources */,
+				D396886D2C07517000667E38 /* ContentView.swift in Sources */,
+				D3ED1CB82C08C55300010013 /* NewView.swift in Sources */,
+				D3D5DCD42C157062009D73D5 /* HawkerSheet.swift in Sources */,
+				D3673BBF2C086BB300EF179E /* SwiftUIView.swift in Sources */,
+				D3D5DCCE2C155F2A009D73D5 /* AnnotationsMap.swift in Sources */,
+				D39688A72C08189200667E38 /* Hawker.swift in Sources */,
+				D3ED1CB62C08C07800010013 /* StallDetail.swift in Sources */,
+				D39688A92C081A4A00667E38 /* HawkerRow.swift in Sources */,
+				D39688A52C0817E600667E38 /* ModelData.swift in Sources */,
+				D39688B32C0835D900667E38 /* OverallMapView.swift in Sources */,
+				D396886B2C07517000667E38 /* hawkerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39688732C07517600667E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D396887C2C07517600667E38 /* hawkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D396887D2C07517600667E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39688882C07517600667E38 /* hawkerUITestsLaunchTests.swift in Sources */,
+				D39688862C07517600667E38 /* hawkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39688792C07517600667E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39688662C07517000667E38 /* hawker */;
+			targetProxy = D39688782C07517600667E38 /* PBXContainerItemProxy */;
+		};
+		D39688832C07517600667E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39688662C07517000667E38 /* hawker */;
+			targetProxy = D39688822C07517600667E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D39688892C07517600667E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D396888A2C07517600667E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D396888C2C07517600667E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hawker/Preview Content\"";
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hawker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawker.school;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D396888D2C07517600667E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hawker/Preview Content\"";
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hawker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawker.school;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D396888F2C07517600667E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hawker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hawker";
+			};
+			name = Debug;
+		};
+		D39688902C07517600667E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hawker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hawker";
+			};
+			name = Release;
+		};
+		D39688922C07517600667E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hawker;
+			};
+			name = Debug;
+		};
+		D39688932C07517600667E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8LNJ66DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.hawkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hawker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39688622C07517000667E38 /* Build configuration list for PBXProject "hawker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39688892C07517600667E38 /* Debug */,
+				D396888A2C07517600667E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D396888B2C07517600667E38 /* Build configuration list for PBXNativeTarget "hawker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D396888C2C07517600667E38 /* Debug */,
+				D396888D2C07517600667E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D396888E2C07517600667E38 /* Build configuration list for PBXNativeTarget "hawkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D396888F2C07517600667E38 /* Debug */,
+				D39688902C07517600667E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39688912C07517600667E38 /* Build configuration list for PBXNativeTarget "hawkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39688922C07517600667E38 /* Debug */,
+				D39688932C07517600667E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D396885F2C07517000667E38 /* Project object */;
+}

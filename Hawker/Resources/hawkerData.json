@@ -1,0 +1,217 @@
+[
+    {
+        "name": "Kovan 209 Market & Food Centre",
+        "address": "209 Hougang St 21, Singapore 530209",
+        "category": "Hawker Centre",
+        "id": 1001,
+        "coordinates": {
+            "latitude":  1.3591083987124917,
+            "longitude": 103.88603431324063
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "kovanhawker",
+        "foodStalls": [
+            {
+                "hname": "Bak Kee Teochew Satay Bee Hoon",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1001001,
+                "stallNumber": "01-40",
+                "openingHours": {
+                    "monday": "9:30am – 7:00pm",
+                    "tuesday": "9:30am – 7:00pm",
+                    "wednesday": "Closed",
+                    "thursday": "9:30am – 7:00pm",
+                    "friday": "9:30am – 7:00pm",
+                    "saturday": "9:30am – 1:00pm",
+                    "sunday": "9:30am – 1:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            }
+        ]
+    },
+    {
+        "name": "Hougang Avenue 1 Block 105 Market and Food Centre",
+        "address": "105 Hougang Ave 1, Singapore 530105",
+        "category": "Hawker Centre",
+        "id": 1002,
+        "coordinates": {
+            "latitude": 1.3541906982792238,
+            "longitude": 103.89003101654272
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "hougangavenueone",
+        "foodStalls": [
+            {
+                "hname": "Bak Kee Teochew Satay Bee Hoon",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1002001,
+                "stallNumber": "01-40",
+                "openingHours": {
+                    "monday": "9:30am – 7:00pm",
+                    "tuesday": "9:30am – 7:00pm",
+                    "wednesday": "Closed",
+                    "thursday": "9:30am – 7:00pm",
+                    "friday": "9:30am – 7:00pm",
+                    "saturday": "9:30am – 1:00pm",
+                    "sunday": "9:30am – 1:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            }
+
+        ]
+    },
+    {
+        "name": "Zion Riverside Food Center",
+        "address": "70 Zion Rd, Singapore 247792",
+        "category": "Hawker Centre",
+        "id": 1003,
+        "coordinates": {
+            "latitude": 1.2927410143900582,
+            "longitude": 103.83135701776058
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "zionriverside",
+        "foodStalls": [
+            {
+                "hname": "Zion Road Big Prawn Noodle",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "stallNumber": "01-04",
+                "id": 1003001,
+                "openingHours": {
+                    "monday": "Closed",
+                    "tuesday": "11:00am – 10:30pm",
+                    "wednesday": "11:00am – 10:30pm",
+                    "thursday": "11:00am – 10:30pm",
+                    "friday": "11:00am – 10:30pm",
+                    "saturday": "11:00am – 10:30pm",
+                    "sunday": "11:00am – 10:30pm"
+                },
+                "paymentMethods": ["cash"]
+            },
+            {
+                "hname": "No. 18 Zion Road Fried Kway Teow",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "stallNumber": "01-17",
+                "id": 1003002,
+                "openingHours": {
+                    "monday": "12:30pm – 9:00pm",
+                    "tuesday": "12:30pm – 9:00pm",
+                    "wednesday": "12:30pm – 9:00pm",
+                    "thursday": "12:30pm – 9:00pm",
+                    "friday": "12:30pm – 9:00pm",
+                    "saturday": "12:30pm – 9:00pm",
+                    "sunday": "12:30pm – 9:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR", "DBS Paylah", "Google Pay Wallet", "Shoppe Pay", "Shopback"]
+            },
+            {
+                "hname": "Lau Goh Teochew Chye Thow Kway",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "stallNumber": "01-26",
+                "id": 1003003,
+                "openingHours": {
+                    "monday": "11:00am – 3:30pm",
+                    "tuesday": "Closed",
+                    "wednesday": "11:00am – 3:30pm",
+                    "thursday": "11:00am – 3:30pm",
+                    "friday": "11:00am – 3:30pm",
+                    "saturday": "11:00am – 3:30pm",
+                    "sunday": "6:00pm – 11:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR", "DBS Paylah", "Google Pay Wallet", "Shoppe Pay", "Shopback"]
+            }
+        ]
+    },
+    {
+        "name": "Tiong Bahru Market",
+        "address": "30 Seng Poh Rd, Singapore 168898",
+        "category": "Hawker Centre",
+        "id": 1004,
+        "coordinates": {
+            "latitude": 1.2853294765706618,
+            "longitude": 103.83275613892437
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "tiongbahru",
+        "foodStalls": [
+            {
+                "hname": "Min Nan Pork Ribs Prawn Noodle",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1004001,
+                "stallNumber": "02-31",
+                "openingHours": {
+                    "monday": "Closed",
+                    "tuesday": "8:00am – 2:30pm",
+                    "wednesday": "8:00am – 2:30pm",
+                    "thursday": "8:00am – 2:30pm",
+                    "friday": "8:00am – 2:30pm",
+                    "saturday": "8:00am – 2:30pm",
+                    "sunday": "8:00am – 2:30pm"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            },
+            {
+                "hname": "Tiong Bahru Pau",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1004002,
+                "stallNumber": "02-18/19",
+                "openingHours": {
+                    "monday": "5:00am – 7:00pm",
+                    "tuesday": "5:00am – 7:00pm",
+                    "wednesday": "5:00am – 7:00pm",
+                    "thursday": "5:00am – 7:00pm",
+                    "friday": "5:00am – 7:00pm",
+                    "saturday": "5:00am – 7:00pm",
+                    "sunday": "5:00am – 3:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            },
+            {
+                "hname": "Hong Heng Fried Sotong Prawn Mee",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1004003,
+                "stallNumber": "02-18/19",
+                "openingHours": {
+                    "monday": "Closed",
+                    "tuesday": "10:30am – 6:00pm",
+                    "wednesday": "10:30am – 6:00pm",
+                    "thursday": "10:30am – 6:00pm",
+                    "friday": "10:30am – 6:00pm",
+                    "saturday": "10:30am – 6:00pm",
+                    "sunday": "Closed"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            }
+        ]
+    },
+    {
+        "name": "Redhill Food Centre",
+        "address": "70 Zion Rd, Singapore 247792",
+        "category": "Hawker Centre",
+        "id": 1005,
+        "coordinates": {
+            "latitude": 1.287513884316306,
+            "longitude": 103.81812388707046
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "imageName": "redhill",
+        "foodStalls": [
+            {
+                "hname": "Bak Kee Teochew Satay Bee Hoon",
+                "imageName": "bakkeeteochewsataybeehoon",
+                "id": 1005001,
+                "stallNumber": "01-40",
+                "openingHours": {
+                    "monday": "9:30am – 7:00pm",
+                    "tuesday": "9:30am – 7:00pm",
+                    "wednesday": "Closed",
+                    "thursday": "9:30am – 7:00pm",
+                    "friday": "9:30am – 7:00pm",
+                    "saturday": "9:30am – 1:00pm",
+                    "sunday": "9:30am – 1:00pm"
+                },
+                "paymentMethods": ["cash", "SGQR"]
+            }
+        ]
+    }
+]
