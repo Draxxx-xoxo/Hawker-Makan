@@ -12,50 +12,49 @@ struct HawkerSheet: View {
     
     var body: some View {
         NavigationStack{
-        ScrollView {    
-            VStack(alignment: .leading) {
-                Text(hawker.name)
-                    .font(.title)
-                
-                
-                HStack {
-                    Text(hawker.category)
-                    Spacer()
-                    //Text(landmark.state)
-                }
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                
-                Divider()
-                
-                Text("Address:")
-                    .font(.title2)
-                Text(hawker.address + "\n")
-                //Text("About")
-                //    .font(.title2)
-                //Text(hawker.description)
-                Text("Notice:")
-                    .font(.title2)
-                
-                Divider()
-                
-                Text("Stalls:")
-                    .font(.title2)
-                
-                
-                ForEach(hawker.foodStalls) { foodstall in
-                    NavigationLink {
-                        StallDetail(foodstall: foodstall)
-                        
-                    } label: {
-                        StallRow(foodstall: foodstall)
+            ScrollView {
+                VStack(alignment: .leading) {
+                    Text(hawker.name)
+                        .font(.title)
+                    
+                    
+                    HStack {
+                        Text(hawker.category)
+                        Spacer()
+                        //Text(landmark.state)
                     }
-                }
-                }
-            .padding()
-            }
-    
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    
+                    Divider()
+                    
+                    Text("Address:")
+                        .font(.title2)
+                    Text(hawker.address + "\n")
+                     .foregroundStyle(.secondary)
+                    //Text("About")
+                    //    .font(.title2)
+                    //Text(hawker.description)
+                    Text("Notice:")
+                        .font(.title2)
+                    Text("Hawker Centre will be closed for cleaning from 12 July to 15 July")
+                        .foregroundStyle(.secondary)
+                    
+                    Text("\n")
+                    
+                    NavigationLink(destination: HawkerDetail(hawker: hawker)
                         
+                    ) {
+                        
+                        Text("View Detail")
+                    }
+                    
+                    
+                }
+                .padding()
+            }
+            
+            
         }
         .navigationTitle(hawker.name)
         .navigationBarTitleDisplayMode(.inline)

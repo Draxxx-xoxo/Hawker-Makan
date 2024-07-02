@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D331E81E2C32C74300A568CD /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331E81D2C32C74300A568CD /* OrderView.swift */; };
 		D3673BBF2C086BB300EF179E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3673BBE2C086BB300EF179E /* SwiftUIView.swift */; };
 		D396886B2C07517000667E38 /* hawkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396886A2C07517000667E38 /* hawkerApp.swift */; };
 		D396886D2C07517000667E38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396886C2C07517000667E38 /* ContentView.swift */; };
@@ -25,6 +26,7 @@
 		D39688B32C0835D900667E38 /* OverallMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39688B22C0835D900667E38 /* OverallMapView.swift */; };
 		D3D5DCCE2C155F2A009D73D5 /* AnnotationsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5DCCD2C155F2A009D73D5 /* AnnotationsMap.swift */; };
 		D3D5DCD42C157062009D73D5 /* HawkerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5DCD32C157062009D73D5 /* HawkerSheet.swift */; };
+		D3DE71E22C318AFB00240F4E /* SelectHawker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE71E12C318AFB00240F4E /* SelectHawker.swift */; };
 		D3ED1CB02C08A36000010013 /* StallRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CAF2C08A36000010013 /* StallRow.swift */; };
 		D3ED1CB62C08C07800010013 /* StallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CB52C08C07800010013 /* StallDetail.swift */; };
 		D3ED1CB82C08C55300010013 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1CB72C08C55300010013 /* NewView.swift */; };
@@ -49,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D331E81D2C32C74300A568CD /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		D3673BBE2C086BB300EF179E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		D39688672C07517000667E38 /* hawker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hawker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D396886A2C07517000667E38 /* hawkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkerApp.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		D39688B22C0835D900667E38 /* OverallMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallMapView.swift; sourceTree = "<group>"; };
 		D3D5DCCD2C155F2A009D73D5 /* AnnotationsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsMap.swift; sourceTree = "<group>"; };
 		D3D5DCD32C157062009D73D5 /* HawkerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerSheet.swift; sourceTree = "<group>"; };
+		D3DE71E12C318AFB00240F4E /* SelectHawker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHawker.swift; sourceTree = "<group>"; };
 		D3ED1CAF2C08A36000010013 /* StallRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallRow.swift; sourceTree = "<group>"; };
 		D3ED1CB52C08C07800010013 /* StallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallDetail.swift; sourceTree = "<group>"; };
 		D3ED1CB72C08C55300010013 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D35FE60C2C2C5D91003735C8 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE71E12C318AFB00240F4E /* SelectHawker.swift */,
+				D331E81D2C32C74300A568CD /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 		D396885E2C07517000667E38 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 		D39688952C07523000667E38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D35FE60C2C2C5D91003735C8 /* Order */,
 				D3ED1CAE2C08A35000010013 /* Stalls */,
 				D3ED1CAD2C08A2FC00010013 /* Hawkers */,
 				D396886C2C07517000667E38 /* ContentView.swift */,
@@ -363,8 +377,10 @@
 				D3D5DCCE2C155F2A009D73D5 /* AnnotationsMap.swift in Sources */,
 				D39688A72C08189200667E38 /* Hawker.swift in Sources */,
 				D3ED1CB62C08C07800010013 /* StallDetail.swift in Sources */,
+				D3DE71E22C318AFB00240F4E /* SelectHawker.swift in Sources */,
 				D39688A92C081A4A00667E38 /* HawkerRow.swift in Sources */,
 				D39688A52C0817E600667E38 /* ModelData.swift in Sources */,
+				D331E81E2C32C74300A568CD /* OrderView.swift in Sources */,
 				D39688B32C0835D900667E38 /* OverallMapView.swift in Sources */,
 				D396886B2C07517000667E38 /* hawkerApp.swift in Sources */,
 			);

@@ -3,24 +3,26 @@ import MapKit
 
 struct OverallMapView: View {
     
-    @State var presentSheet = true
+    @State private var mapFeature : Hawker?
     
     var body: some View {
-        Map(position: .constant(.region(region))) {
+        Map(position: .constant(.region(region)), selection: $mapFeature) {
             ForEach(hawkers) { hawker in
                 Marker(hawker.name, coordinate: hawker.locationCoordinate)
                     .tint(.orange)
-                    .tag(hawker.id)
+                    .tag(hawker)
+
             }
             
         }
         .mapStyle(mapstyle)
         //.mapControlVisibility(.hidden)
-        .sheet(isPresented: $presentSheet) {
+        .sheet(item: $mapFeature, content: { hawker in
+            HawkerSheet(hawker: hawker)
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
             
-            HawkerSheet(hawker: hawkers[0])
-                .presentationDetents([.height(500)])
-        }
+        })
     }
     
     private var region: MKCoordinateRegion {

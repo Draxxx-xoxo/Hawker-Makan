@@ -35,13 +35,14 @@ struct Hawker: Hashable, Codable, Identifiable {
         var stallNumber: String
         var openingHours: OpeningHours
         var paymentMethods: Array<String>
+        var food: [Food]
         
         private var imageName: String
         
         var image: Image {
             Image(imageName)
         }
-        
+                
     }
     
     struct OpeningHours: Hashable, Codable{
@@ -53,6 +54,7 @@ struct Hawker: Hashable, Codable, Identifiable {
         var saturday: String
         var sunday: String
     }
+
 }
 
 
